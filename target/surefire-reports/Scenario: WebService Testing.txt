@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: WebService Testing
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 3.811 sec - in Scenario: WebService Testing

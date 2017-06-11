@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Search Relevant UnAuthored Products - Front End
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 3.945 sec - in Scenario: Search Relevant UnAuthored Products - Front End

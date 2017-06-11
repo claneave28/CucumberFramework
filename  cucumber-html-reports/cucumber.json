@@ -1,0 +1,534 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2857475890,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Search Relevant UnAuthored Products - Front End",
+        "description": "",
+        "id": "product-title;search-relevant-unauthored-products---front-end",
+        "after": [
+          {
+            "result": {
+              "duration": 1080932769,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "A fishersci user is on the fishersci website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user types in relevant UnAuthored Products in the Search box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "those Products should show up first in the search results",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@DTFS-89"
+          },
+          {
+            "line": 5,
+            "name": "@version:FS.2017.4.0"
+          },
+          {
+            "line": 5,
+            "name": "@OPEN"
+          },
+          {
+            "line": 5,
+            "name": "@DTFS-89"
+          },
+          {
+            "line": 5,
+            "name": "@DTFS-89.2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2140346085,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Material Description mapped to Product Title - Back End",
+        "description": "",
+        "id": "product-title;material-description-mapped-to-product-title---back-end;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1074387610,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Unauthored Products are missing data in Product Title field",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user searches for those Unauthored Products \"0570786\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Material Desc should get mapped to Product Title for those products \"0570786\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@OPEN"
+          },
+          {
+            "line": 13,
+            "name": "@DTFS-89.1"
+          },
+          {
+            "line": 13,
+            "name": "@version:FS.2017.4.0"
+          },
+          {
+            "line": 13,
+            "name": "@DTFS-89"
+          },
+          {
+            "line": 1,
+            "name": "@ProductTitle"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2847720055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Material Description mapped to Product Title - Back End",
+        "description": "",
+        "id": "product-title;material-description-mapped-to-product-title---back-end;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1074283363,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Unauthored Products are missing data in Product Title field",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user searches for those Unauthored Products \"M1178660001\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Material Desc should get mapped to Product Title for those products \"M1178660001\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@OPEN"
+          },
+          {
+            "line": 13,
+            "name": "@DTFS-89.1"
+          },
+          {
+            "line": 13,
+            "name": "@version:FS.2017.4.0"
+          },
+          {
+            "line": 13,
+            "name": "@DTFS-89"
+          },
+          {
+            "line": 1,
+            "name": "@ProductTitle"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2660448246,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Material Description mapped to Product Title - Back End",
+        "description": "",
+        "id": "product-title;material-description-mapped-to-product-title---back-end;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1070909558,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Unauthored Products are missing data in Product Title field",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user searches for those Unauthored Products \"AA35230LS\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Material Desc should get mapped to Product Title for those products \"AA35230LS\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@OPEN"
+          },
+          {
+            "line": 13,
+            "name": "@DTFS-89.1"
+          },
+          {
+            "line": 13,
+            "name": "@version:FS.2017.4.0"
+          },
+          {
+            "line": 13,
+            "name": "@DTFS-89"
+          },
+          {
+            "line": 1,
+            "name": "@ProductTitle"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1926734509,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Material Description mapped to Product Title - Back End",
+        "description": "",
+        "id": "product-title;material-description-mapped-to-product-title---back-end;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1079504398,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Unauthored Products are missing data in Product Title field",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user searches for those Unauthored Products \"AA35233LS\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Material Desc should get mapped to Product Title for those products \"AA35233LS\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@OPEN"
+          },
+          {
+            "line": 13,
+            "name": "@DTFS-89.1"
+          },
+          {
+            "line": 13,
+            "name": "@version:FS.2017.4.0"
+          },
+          {
+            "line": 13,
+            "name": "@DTFS-89"
+          },
+          {
+            "line": 1,
+            "name": "@ProductTitle"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2253992533,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Material Description mapped to Product Title - Back End",
+        "description": "",
+        "id": "product-title;material-description-mapped-to-product-title---back-end;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1076193498,
+              "status": "passed"
+            },
+            "match": {
+              "location": "init.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Unauthored Products are missing data in Product Title field",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user searches for those Unauthored Products \"22261936\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Material Desc should get mapped to Product Title for those products \"22261936\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@OPEN"
+          },
+          {
+            "line": 13,
+            "name": "@DTFS-89.1"
+          },
+          {
+            "line": 13,
+            "name": "@version:FS.2017.4.0"
+          },
+          {
+            "line": 13,
+            "name": "@DTFS-89"
+          },
+          {
+            "line": 1,
+            "name": "@ProductTitle"
+          }
+        ]
+      }
+    ],
+    "name": "Product Title",
+    "description": "",
+    "id": "product-title",
+    "keyword": "Feature",
+    "uri": "ProductTitle.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ProductTitle"
+      }
+    ]
+  }
+]
